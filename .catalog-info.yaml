@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: dixa-desktop-app-release
+  description: Public releases of the Dixa desktop app.
+  annotations:
+    github.com/project-slug: dixahq/dixa-desktop-app-release
+spec:
+  lifecycle: production
+  owner: dixahq-frontend-core
+  type: website
